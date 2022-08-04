@@ -1,0 +1,1592 @@
+section.bank-accts .full-pg-content-container.top-padding,
+section.bank-acct .full-pg-content-container.top-padding,
+section.beneficial-owners .full-pg-content-container.top-padding,
+section.customer-documents .full-pg-content-container.top-padding,
+section.transactions .full-pg-content-container.top-padding {
+    padding-top: 1em;
+}
+
+section.transactions .full-pg-content-container.top-padding > .wrapper {
+    max-width: 1300px !important;
+}
+
+section.bank-accts .breadcrumb-wrapper,
+section.bank-acct .breadcrumb-wrapper,
+section.beneficial-owners .breadcrumb-wrapper,
+section.customer-documents .breadcrumb-wrapper,
+section.transactions .breadcrumb-wrapper {
+    float: none;
+    position: static;
+}
+
+section.bank-accts .r-side > .btn {
+    margin: 0;
+}
+
+section.bank-accts .r-side > .btn:not(:last-child) {
+    margin-right: 10px;
+}
+
+section.bank-accts .r-side > .btn a {
+    padding-bottom: 9px;
+}
+
+section.bank-acct h1.h1-border,
+section.transactions h1.h1-border {
+    margin-top: 0.5em;
+}
+
+section.transactions .search-wrapper {
+    height: auto;
+    border: 1px solid #dedede;
+    margin: 0 auto 1.2em;
+    width: 35%;
+}
+
+section.transactions .search-wrapper input {
+    margin-bottom: 0;
+    border: 0;
+    line-height: 20px;
+    width: 90%;
+    color: #5c5b5b;
+}
+
+section.transactions .search-wrapper .search-icon {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: url('/images/icons/search_icon.svg') no-repeat center center;
+    margin: 4px 4px 4px 0;
+}
+
+section.bank-acct .setting-form.medium {
+    width: 100%;
+    margin: 1em 0 0;
+}
+
+section.bank-acct #project_accounting_details > p {
+    margin-top: 0;
+}
+
+section.bank-acct #project_accounting_details > .button-wrapper {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+section.bank-acct #project_accounting_details #link-btn-container {
+    margin-left: 0;
+}
+
+section.bank-acct #project_accounting_details #link-btn.disabled {
+    pointer-events: none;
+}
+
+section.bank-acct #project_address > p {
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+}
+
+section.bank-acct #project_accounting_details .form-section {
+    float: none;
+    min-height: 40px;
+    overflow: hidden;
+}
+
+section.bank-acct #project_accounting_details .form-section:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+section.bank-acct #project_accounting_details .form-section .label-wrapper span.label-name {
+    float: none;
+    display: block;
+}
+
+section.bank-acct #project_accounting_details .form-section .label-wrapper.half {
+    float: none;
+}
+
+section.bank-acct #project_accounting_details #project_city_state_zip .label-wrapper.half {
+    float: left;
+}
+
+section.bank-acct #project_accounting_details .form-section .label-wrapper:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+section.bank-acct #project_accounting_details #project_city_state_zip .label-wrapper {
+    margin-bottom: 0;
+}
+
+section.bank-acct #project_accounting_details #project_city_state_zip .label-wrapper:first-child {
+    margin-right: 3%;
+}
+
+section.bank-acct #project_accounting_details #project_city_state_zip .label-wrapper:last-child {
+    margin-left: 3%;
+}
+
+section.bank-acct #project_accounting_details .form-section .label-wrapper input,
+section.bank-acct #project_accounting_details .form-section .label-wrapper select {
+    float: none;
+    margin-bottom: 0;
+    display: block;
+}
+
+section.bank-acct #project_accounting_details > div.button-wrapper div.label-wrapper {
+    float: none;
+}
+
+section.bank-acct #project_accounting_details #accountType {
+    text-transform: capitalize;
+}
+
+section.bank-acct #bank-acct-form > .comm-form {
+    float: none;
+}
+
+section.bank-acct #bank-acct-form > .comm-form div.button-wrapper button {
+    margin-left: 0;
+}
+
+section.bank-accts table.bank-accts-table {
+    margin-top: 0;
+}
+
+section.bank-accts table.bank-accts-table th.col-1,
+section.bank-accts table.bank-accts-table th.col-2,
+section.bank-accts table.bank-accts-table td.col-1,
+section.bank-accts table.bank-accts-table td.col-2 {
+    width: 37%;
+}
+
+section.bank-accts table.bank-accts-table th.col-3,
+section.bank-accts table.bank-accts-table td.col-3 {
+    width: 16%;
+}
+
+section.bank-accts table.bank-accts-table th.col-4 {
+    width: 10%;
+}
+
+section.bank-accts table.bank-accts-table td.col-1,
+section.bank-accts table.bank-accts-table td.col-2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+section.bank-accts table.bank-accts-table td.col-3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+section.bank-accts table.bank-accts-table td.col-4,
+section.bank-accts table.bank-accts-table td.col-5 {
+    width: 5%;
+    text-align: center;
+    padding: 5px 0;
+}
+
+section.bank-accts table.bank-accts-table .delete,
+section.bank-accts table.bank-accts-table .edit-btn {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+section.bank-accts table.bank-accts-table .thead {
+    border-bottom: 1px solid #dedede;
+    padding: 0;
+}
+
+section.bank-accts table.bank-accts-table .tbody tr:not(:last-child) {
+    border-bottom: 1px solid #dedede;
+}
+
+section.bank-accts table.bank-accts-table .thead tr > th {
+    padding: 10px 0;
+}
+
+section.bank-accts table.bank-accts-table .thead tr > th:first-child {
+    padding-left: 0;
+}
+
+section.bank-accts table.bank-accts-table .thead tr > th:not(:last-child) {
+    border-right: 1px solid #dedede;
+}
+
+section.beneficial-owners table.beneficial-owners-table,
+section.transactions table.transactions-table {
+    margin-top: 0;
+}
+
+section.beneficial-owners table.beneficial-owners-table .thead {
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    padding: 0;
+}
+
+section.transactions ul.pagination {
+    margin-top: 10px;
+}
+
+section.transactions ul.pagination li {
+    margin-top: 0;
+}
+
+section.transactions ul.pagination li:not(:last-child) {
+    margin-right: 2px;
+}
+
+section.transactions ul.pagination li.disabled {
+    background-color: transparent !important;
+    color: #989494;
+}
+
+section.transactions ul.pagination li.active {
+    color: #989494;
+}
+
+section.transactions ul.pagination li.disabled:hover {
+    color: #989494 !important;
+}
+
+section.transactions ul.pagination li.disabled:focus {
+    outline: 0;
+    color: #989494 !important;
+}
+
+section.transactions ul.pagination li.disabled span:focus {
+    outline: 0;
+}
+
+section.transactions table.transactions-table .thead {
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    padding: 0;
+}
+
+section.beneficial-owners table.beneficial-owners-table .thead tr > th,
+section.transactions table.transactions-table .thead tr > th {
+    padding: 10px 0;
+}
+
+section.transactions table.transactions-table .tbody tr td:not(:last-child) {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+section.beneficial-owners table.beneficial-owners-table .thead tr > th:first-child,
+section.transactions table.transactions-table .thead tr > th:first-child {
+    padding-left: 0;
+}
+
+section.beneficial-owners table.beneficial-owners-table .thead tr > th:not(:last-child),
+section.transactions table.transactions-table .thead tr > th:not(:last-child) {
+    border-right: 1px solid #dedede;
+}
+
+section.beneficial-owners table.beneficial-owners-table .tbody tr:not(:last-child),
+section.transactions table.transactions-table .tbody tr:not(:last-child) {
+    border-bottom: 1px solid #dedede;
+}
+
+section.transactions table.transactions-table th.col-1,
+section.transactions table.transactions-table th.col-2,
+section.transactions table.transactions-table td.col-1,
+section.transactions table.transactions-table td.col-2 {
+    width: 24%;
+}
+
+section.transactions table.transactions-table td.col-1,
+section.transactions table.transactions-table td.col-2 {
+    padding-left: 15px;
+}
+
+section.transactions table.transactions-table th.col-3,
+section.transactions table.transactions-table th.col-4,
+section.transactions table.transactions-table th.col-5,
+section.transactions table.transactions-table td.col-3,
+section.transactions table.transactions-table td.col-4,
+section.transactions table.transactions-table td.col-5 {
+    width: 10%;
+    text-align: center;
+}
+
+section.transactions table.transactions-table td.col-4 {
+    text-transform: capitalize;
+}
+
+section.transactions table.transactions-table th.col-6,
+section.transactions table.transactions-table td.col-6 {
+    width: 14%;
+    text-align: center;
+}
+
+section.transactions table.transactions-table th.col-7,
+section.transactions table.transactions-table td.col-7 {
+    width: 8%;
+    text-align: center;
+}
+
+section.transactions table.transactions-table td.col-7 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+section.transactions table.transactions-table .cancel-icon-wrapper,
+section.transactions table.transactions-table .failure-icon-wrapper {
+    display: inline-block;
+    vertical-align: top;
+    width: 38px;
+    height: 38px;
+    position: relative;
+}
+
+section.transactions table.transactions-table .cancel-button,
+section.transactions table.transactions-table .failure-icon {
+    visibility: hidden;
+    left: -9999px;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+section.transactions table.transactions-table .cancel-button::before {
+    content: "";
+    background: url("/images/icons/cancel-pledge_icon.svg") center center / 38px 38px no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    visibility: visible;
+}
+
+section.transactions table.transactions-table .failure-icon::before {
+    content: "";
+    background: url("/images/failure-icon.png") center center / 38px 38px no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    visibility: visible;
+}
+
+section.beneficial-owners table.beneficial-owners-table th.col-1,
+section.beneficial-owners table.beneficial-owners-table th.col-2,
+section.beneficial-owners table.beneficial-owners-table td.col-1,
+section.beneficial-owners table.beneficial-owners-table td.col-2 {
+    width: 35%;
+}
+
+section.beneficial-owners table.beneficial-owners-table th.col-3,
+section.beneficial-owners table.beneficial-owners-table td.col-3 {
+    width: 20%;
+}
+
+section.beneficial-owners table.beneficial-owners-table th.col-4 {
+    width: 10%;
+}
+
+section.beneficial-owners table.beneficial-owners-table td.col-1,
+section.beneficial-owners table.beneficial-owners-table td.col-2,
+section.beneficial-owners table.beneficial-owners-table td.col-3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+section.beneficial-owners table.beneficial-owners-table td.col-1,
+section.beneficial-owners table.beneficial-owners-table td.col-2 {
+    padding-left: 15px;
+}
+
+section.beneficial-owners table.beneficial-owners-table td.col-3 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+section.beneficial-owners table.beneficial-owners-table td.col-4,
+section.beneficial-owners table.beneficial-owners-table td.col-5 {
+    width: 5%;
+    text-align: center;
+    padding: 5px 0;
+}
+
+section.beneficial-owners table.beneficial-owners-table .delete,
+section.beneficial-owners table.beneficial-owners-table .edit-btn,
+section.beneficial-owners table.beneficial-owners-table .upload-doc-btn {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+section.beneficial-owners table.beneficial-owners-table .upload-doc-btn {
+    visibility: hidden;
+    vertical-align: top;
+    left: -9999px;
+}
+
+section.beneficial-owners table.beneficial-owners-table .upload-doc-btn::before {
+    content: "";
+    background: url("/images/upload-document.png") center center / 38px 38px no-repeat;
+    position: absolute;
+    top: 0;
+    left: -1px;
+    width: 38px;
+    height: 38px;
+    visibility: visible;
+}
+
+section.beneficial-owners table.beneficial-owners-table td.col-5.w10 {
+    width: 10%;
+}
+
+section.beneficial-owners div.community-tab-content-wrapper > p,
+section.transactions div.community-tab-content-wrapper > p {
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 1em;
+}
+
+section.customer-documents table.customer-docs-table {
+    margin-top: 0;
+}
+
+section.customer-documents table.customer-docs-table .thead {
+    border-bottom: 1px solid #dedede;
+    padding: 0;
+}
+
+section.customer-documents table.customer-docs-table .thead tr > th {
+    padding: 10px 0;
+}
+
+section.customer-documents table.customer-docs-table .thead tr > th:first-child {
+    padding-left: 0;
+}
+
+section.customer-documents table.customer-docs-table .thead tr > th:not(:last-child) {
+    border-right: 1px solid #dedede;
+}
+
+section.customer-documents table.customer-docs-table .tbody tr:not(:last-child) {
+    border-bottom: 1px solid #dedede;
+}
+
+section.customer-documents table.customer-docs-table th.col-1,
+section.customer-documents table.customer-docs-table th.col-3,
+section.customer-documents table.customer-docs-table th.col-4,
+section.customer-documents table.customer-docs-table td.col-1,
+section.customer-documents table.customer-docs-table td.col-3,
+section.customer-documents table.customer-docs-table td.col-4 {
+    width: 13%;
+}
+
+section.customer-documents table.customer-docs-table th.col-2,
+section.customer-documents table.customer-docs-table td.col-2 {
+    width: 26%;
+    padding-left: 15px;
+}
+
+section.customer-documents table.customer-docs-table th.col-5,
+section.customer-documents table.customer-docs-table td.col-5 {
+    width: 20%;
+}
+
+section.customer-documents table.customer-docs-table th.col-6,
+section.customer-documents table.customer-docs-table td.col-6 {
+    width: 15%;
+}
+
+section.customer-documents table.customer-docs-table .tbody tr td {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+section.customer-documents table.customer-docs-table .tbody tr td:first-child {
+    padding-left: 0;
+}
+
+section.customer-documents table.customer-docs-table td.col-1,
+section.customer-documents table.customer-docs-table td.col-3,
+section.customer-documents table.customer-docs-table td.col-4,
+section.customer-documents table.customer-docs-table td.col-5,
+section.customer-documents table.customer-docs-table td.col-6 {
+    text-align: center;
+}
+
+section.customer-documents table.customer-docs-table td.col-1,
+section.customer-documents table.customer-docs-table td.col-4 {
+    text-transform: capitalize;
+}
+
+section.customer-documents div.community-tab-content-wrapper > p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 2em;
+}
+
+section.customer-documents div.community-tab-content-wrapper > ul {
+    margin-top: 1em;
+}
+
+section.create-customer .full-pg-content-container.top-padding,
+section.edit-customer .full-pg-content-container.top-padding,
+section.upload-docs .full-pg-content-container.top-padding,
+section.transfer-funds .full-pg-content-container.top-padding {
+    padding-top: 1em;
+}
+
+section.create-customer ul.breadcrumbs,
+section.edit-customer ul.breadcrumbs,
+section.upload-docs ul.breadcrumbs,
+section.transfer-funds ul.breadcrumbs {
+    margin: 1em 0;
+}
+
+section.create-customer div.button-wrapper,
+section.edit-customer div.button-wrapper,
+section.upload-docs div.button-wrapper,
+section.beneficial-owners div.button-wrapper,
+section.transfer-funds div.button-wrapper {
+    padding-top: 1em;
+    border-top: 1px solid #dedede;
+}
+
+section.create-customer div.button-wrapper div.label-wrapper,
+section.edit-customer div.button-wrapper div.label-wrapper,
+section.upload-docs div.button-wrapper div.label-wrapper,
+section.beneficial-owners div.button-wrapper div.label-wrapper,
+section.transfer-funds div.button-wrapper div.label-wrapper {
+    width: 200px;
+}
+
+section.create-customer button.btn,
+section.edit-customer button.btn,
+section.upload-docs button.btn,
+section.beneficial-owners button.btn,
+section.transfer-funds button.btn {
+    padding: 9px;
+    display: block;
+    margin: 0 !important;
+    width: 100%;
+    color: #fff;
+}
+
+section.create-customer div.button-wrapper .next-btn-wrapper,
+section.create-customer div.button-wrapper .save-btn-wrapper,
+section.transfer-funds div.button-wrapper .next-btn-wrapper,
+section.transfer-funds div.button-wrapper .save-btn-wrapper {
+    margin-left: 30px;
+}
+
+section.create-customer button:focus,
+section.edit-customer button:focus,
+section.upload-docs button:focus,
+section.beneficial-owners button:focus,
+section.transfer-funds button:focus {
+    outline: 0;
+}
+
+section.create-customer button.btn-danger,
+section.edit-customer button.btn-danger,
+section.upload-docs button.btn-danger,
+section.beneficial-owners button.btn-danger,
+section.transfer-funds button.btn-danger,
+section.funding-source button.btn-danger {
+    background-color: #dc3545;
+    border: 1px solid #dc3545;
+}
+
+section.create-customer button.btn-danger:hover,
+section.edit-customer button.btn-danger:hover,
+section.upload-docs button.btn-danger:hover,
+section.beneficial-owners button.btn-danger:hover,
+section.transfer-funds button.btn-danger:hover,
+section.funding-source button.btn-danger:hover {
+    background-color: #c82333;
+    border: 1px solid #bd2130;
+}
+
+section.create-customer button.btn-danger:active,
+section.edit-customer button.btn-danger:active,
+section.upload-docs button.btn-danger:active,
+section.beneficial-owners button.btn-danger:active,
+section.transfer-funds button.btn-danger:active,
+section.funding-source button.btn-danger:active {
+    background-color: #bd2130;
+    border: 1px solid #b21f2d;
+}
+
+section.create-customer button.btn-primary,
+section.transfer-funds button.btn-primary,
+section.funding-source button.btn-primary {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+}
+
+section.create-customer button.btn-primary:hover,
+section.transfer-funds button.btn-primary:hover,
+section.funding-source button.btn-primary:hover {
+    background-color: #0069d9;
+    border: 1px solid #0062cc;
+}
+
+section.create-customer button.btn-primary:active,
+section.transfer-funds button.btn-primary:active,
+section.funding-source button.btn-primary:active {
+    background-color: #0062cc;
+    border: 1px solid #005cbf;
+}
+
+section.create-customer button.btn-success,
+section.edit-customer button.btn-success,
+section.upload-docs button.btn-success,
+section.beneficial-owners button.btn-success,
+section.transfer-funds button.btn-success,
+section.funding-source button.btn-success {
+    background-color: #28a745;
+    border: 1px solid #28a745;
+}
+
+section.create-customer button.btn-success:hover,
+section.edit-customer button.btn-success:hover,
+section.upload-docs button.btn-success:hover,
+section.beneficial-owners button.btn-success:hover,
+section.transfer-funds button.btn-success:hover,
+section.funding-source button.btn-success:hover {
+    background-color: #218838;
+    border: 1px solid #1e7e34;
+}
+
+section.create-customer button.btn-success:active,
+section.edit-customer button.btn-success:active,
+section.upload-docs button.btn-success:active,
+section.beneficial-owners button.btn-success:active,
+section.transfer-funds button.btn-success:active,
+section.funding-source button.btn-success:active {
+    background-color: #1e7e34;
+    border: 1px solid #1c7430;
+}
+
+section.create-customer #dwolla-terms-of-svc a,
+section.create-customer #dwolla-privacy-policy a {
+    color: #0000EE;
+    text-decoration: underline;
+}
+
+section.create-customer #dwolla-terms-of-svc a:visited,
+section.create-customer #dwolla-privacy-policy a:visited {
+    color: #551A8B;
+    text-decoration: underline;
+}
+
+section.create-customer #dwolla-terms-of-svc #dwolla-tos-cb,
+section.create-customer #dwolla-privacy-policy #dwolla-pp-cb {
+    width: auto;
+    margin:5px 10px 0 0;
+}
+
+section.create-customer #dwolla-terms-of-svc > div,
+section.create-customer #dwolla-privacy-policy > div {
+    margin-top: 1em;
+}
+
+section.create-customer div.button-wrapper #ach-wizard-next {
+    pointer-events: none;
+}
+
+section.create-customer .setting-form,
+section.edit-customer .setting-form,
+section.upload-docs .setting-form {
+    margin: 1em 0 1.5em;
+}
+
+section.beneficial-owners .setting-form {
+    margin: 2em 0 1.5em;
+}
+
+section.transfer-funds .setting-form {
+    margin: 1em 0 1.5em;
+}
+
+section.transfer-funds .xfer-progress-bar {
+    width: 44%;
+    margin: 0 auto;
+    padding-top: 51px;
+    counter-reset: step;
+}
+
+section.transfer-funds .xfer-progress-bar > li {
+    float: left;
+    width: 33.333333%;
+    text-align: center;
+    position: relative;
+    color: #989494;
+    font-weight: bold;
+}
+
+section.transfer-funds .xfer-progress-bar > li.active {
+    color: #4ce600;
+}
+
+section.transfer-funds .xfer-progress-bar > li.active::before {
+    border-color: #4ce600;
+}
+
+section.transfer-funds .xfer-progress-bar > li.finished {
+    color: #28a745;
+}
+
+section.transfer-funds .xfer-progress-bar > li.finished::before {
+    border-color: #28a745;
+}
+
+section.transfer-funds .xfer-progress-bar > li::before {
+    counter-increment: step;
+    content: counter(step);
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid #989494;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    line-height: 28px;
+}
+
+section.transfer-funds #investor-section,
+section.transfer-funds #amount-section,
+section.transfer-funds #review-section {
+    width: 50%;
+    margin: 0 auto;
+}
+
+section.transfer-funds #investor-section > p,
+section.transfer-funds #amount-section > p {
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-size: 15px;
+	  line-height: 20px;
+}
+
+section.transfer-funds #review-section > p {
+    margin-top: 0;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+section.transfer-funds #investor-section > span {
+    display: block;
+    font-size: 0.9em;
+}
+
+section.beneficial-owners .certify-cb-wrapper {
+    float: left;
+    width: 4%;
+    height: 23px;
+    position: relative;
+}
+
+section.beneficial-owners #certify-ownership-cb {
+    margin-bottom: 0;
+    float: none;
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section.beneficial-owners #certify-ownership-form label {
+    display: block;
+    float: left;
+    width: 96%;
+}
+
+section.create-customer div.community-tab-content-wrapper > p,
+section.transfer-funds div.community-tab-content-wrapper > p {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+section.create-customer p.certify-info {
+    margin-top: 1.5em;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+}
+
+section.upload-docs div.community-tab-content-wrapper p {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+section.create-customer .setting-form.medium,
+section.edit-customer .setting-form.medium,
+section.beneficial-owners .setting-form.medium,
+section.transfer-funds .setting-form.medium {
+    width: 100%;
+}
+
+section.upload-docs .setting-form.medium {
+    width: auto;
+}
+
+section.create-customer #customer-info > div,
+section.edit-customer #customer-info > div {
+    width: 50%;
+}
+
+section.create-customer #customer-info > div h2,
+section.edit-customer #customer-info > div h2 {
+    text-align: center;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+section.upload-docs #verify-with-doc > h2,
+section.upload-docs #verify-bus-with-doc > h2,
+section.upload-docs #verify-cntlr-and-bus-with-doc > h2 {
+    text-align: center;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 5px;
+}
+
+section.upload-docs #verify-cntlr-and-bus-with-doc > h2 {
+    margin-bottom: 1em;
+}
+
+section.upload-docs #verify-bus-with-doc > ul,
+section.upload-docs #verify-cntlr-and-bus-with-doc ul {
+    margin-top: 1em;
+}
+
+section.upload-docs #verify-bus-with-doc > ul:not(.sole-proprietor) li,
+section.upload-docs #verify-cntlr-and-bus-with-doc ul:not(.sole-proprietor) li {
+    position: relative;
+    margin-left: 18px;
+}
+
+section.upload-docs #verify-bus-with-doc > ul:not(.sole-proprietor) li::before,
+section.upload-docs #verify-cntlr-and-bus-with-doc ul:not(.sole-proprietor) li::before {
+    content: "";
+    position: absolute;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    height: 7px;
+    width: 7px;
+    top: 8px;
+    left: -18px;
+    background-color: #5c5b5b;
+}
+
+section.upload-docs #verify-with-doc div.upload-region,
+section.upload-docs #verify-bus-with-doc div.upload-region,
+section.upload-docs #verify-cntlr-and-bus-with-doc div.upload-region {
+    margin-top: 1em;
+    padding: 1em 2em 2em;
+    border: 1px solid #dedede;
+}
+
+section.upload-docs #verify-with-doc div.upload-region h2,
+section.upload-docs #verify-bus-with-doc div.upload-region h2,
+section.upload-docs #verify-cntlr-and-bus-with-doc div.upload-region h2 {
+    text-align: center;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 5px;
+    margin-bottom: 1em;
+}
+
+section.upload-docs #verify-cntlr-and-bus-with-doc div.content-region > div > h2 {
+    text-align: center;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 5px;
+}
+
+section.upload-docs #verify-with-doc div.upload-region > div,
+section.upload-docs #verify-bus-with-doc div.upload-region > div,
+section.upload-docs #verify-cntlr-and-bus-with-doc div.content-region > div {
+    width: 50%;
+}
+
+section.upload-docs #verify-with-doc div.upload-region .lside,
+section.upload-docs #verify-bus-with-doc div.upload-region .lside {
+    padding-right: 1em;
+}
+
+section.upload-docs #verify-cntlr-and-bus-with-doc div.content-region .lside {
+    padding-right: 1.5em;
+}
+
+section.upload-docs #verify-with-doc div.upload-region .rside,
+section.upload-docs #verify-bus-with-doc div.upload-region .rside {
+    padding-left: 1em;
+}
+
+section.upload-docs #verify-cntlr-and-bus-with-doc div.content-region .rside {
+    border-left: 1px solid #dedede;
+    padding-left: 1.5em;
+}
+
+section.upload-docs #verify-bus-with-doc div.upload-region .rside #selected-files,
+section.upload-docs #verify-cntlr-and-bus-with-doc div.upload-region #selected-files {
+    border: 1px solid #dedede;
+    padding: 10px;
+    min-height: 45px;
+}
+
+section.upload-docs #verify-with-doc div.upload-region input,
+section.upload-docs #verify-bus-with-doc div.upload-region input,
+section.upload-docs #verify-cntlr-and-bus-with-doc div.upload-region input {
+    float: none;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 18px;
+    border: 1px solid #dedede;
+}
+
+section.upload-docs #verify-cntlr-and-bus-with-doc div.rside div.upload-region input {
+    margin-bottom: 1em;
+}
+
+section.upload-docs #verify-with-doc div.upload-region select,
+section.upload-docs #verify-cntlr-and-bus-with-doc div.upload-region select {
+    height: 45px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 18px;
+    border: 1px solid #dedede;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    padding: 0 0 0 10px;
+    color: #5c5b5b;
+}
+
+section.upload-docs #verify-cntlr-and-bus-with-doc div.upload-region select {
+    margin-bottom: 1em;
+}
+
+section.create-customer .pr25,
+section.edit-customer .pr25 {
+    padding-right: 25px;
+}
+
+section.create-customer .pl25,
+section.edit-customer .pl25 {
+    padding-left: 25px;
+}
+
+section.create-customer .m0a,
+section.edit-customer .m0a {
+    margin: 0 auto;
+}
+
+section.create-customer .rborder,
+section.edit-customer .rborder {
+    border-right: 1px solid #dedede;
+}
+
+section.create-customer #customer-info .label-wrapper:not(:last-child),
+section.edit-customer #customer-info .label-wrapper:not(:last-child),
+section.transfer-funds #investor-section div.label-wrapper:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+section.create-customer #customer-info .label-wrapper > span.label-name,
+section.edit-customer #customer-info .label-wrapper > span.label-name,
+section.transfer-funds div.label-wrapper > span.label-name {
+    float: none;
+    display: block;
+}
+
+section.create-customer #customer-info .label-wrapper > input,
+section.edit-customer #customer-info .label-wrapper > input,
+section.transfer-funds .label-wrapper > input {
+    float: none;
+    margin-bottom: 0;
+    display: block;
+    line-height: 18px;
+}
+
+section.create-customer #customer-info .label-wrapper > label.validation-error-msg,
+section.edit-customer #customer-info .label-wrapper > label.validation-error-msg,
+section.transfer-funds .label-wrapper > label.validation-error-msg {
+    float: none;
+    display: block;
+    margin: 2px 0 0;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+section.create-customer #customer-info .label-wrapper > select,
+section.edit-customer #customer-info .label-wrapper > select,
+section.transfer-funds div.label-wrapper > select {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+section.create-customer #customer-info .validation-error::before,
+section.edit-customer #customer-info .validation-error::before,
+section.transfer-funds .validation-error::before {
+    padding-right: 0.5em;
+}
+
+section.create-customer #customer-info .input-validation-error[type="email"],
+section.create-customer #customer-info select.input-validation-error,
+section.edit-customer #customer-info .input-validation-error[type="email"],
+section.edit-customer #customer-info select.input-validation-error,
+section.transfer-funds select.input-validation-error,
+section.transfer-funds .input-validation-error[type="text"] {
+    border-color: #e40000 !important;
+    color: #e40000;
+}
+
+section.create-customer #customer-info .validation-error-msg[type="text"],
+section.create-customer #customer-info .validation-error-msg[type="email"],
+section.create-customer #customer-info select.validation-error-msg,
+section.edit-customer #customer-info .validation-error-msg[type="text"],
+section.edit-customer #customer-info .validation-error-msg[type="email"],
+section.edit-customer #customer-info select.validation-error-msg,
+section.transfer-funds select.validation-error-msg,
+section.transfer-funds .validation-error-msg[type="text"] {
+    padding: 10px;
+    margin: 0;
+}
+
+section.create-customer #customer-info select.validation-error-msg,
+section.edit-customer #customer-info select.validation-error-msg,
+section.transfer-funds select.validation-error-msg {
+    float: none;
+}
+
+section.edit-customer #customer-info input.read-only {
+    background-color: #e1dddd;
+}
+
+section.edit-customer #customer-info select.read-only {
+    background-color: #e1dddd;
+    pointer-events: none;
+}
+
+section.edit-customer #customer-info input.read-only:focus,
+section.edit-customer #customer-info select.read-only:focus {
+    border-color: #e1dddd !important;
+}
+
+section.payment-settings .full-pg-content-container.top-padding {
+    padding-top: 1em;
+}
+
+section.create-customer .breadcrumb-wrapper,
+section.edit-customer .breadcrumb-wrapper,
+section.payment-settings .breadcrumb-wrapper,
+section.upload-docs .breadcrumb-wrapper,
+section.transfer-funds .breadcrumb-wrapper {
+	  float: none;
+	  position: static;
+}
+
+section.payment-settings h1.h1-border {
+    margin-top: 0.5em;
+}
+
+section.payment-settings span.customer-status {
+    display: block;
+    margin: 1em 0 1em;
+    text-transform: capitalize;
+}
+
+section.payment-settings p {
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+section.payment-settings #createCustLink,
+section.payment-settings #retryCustLink,
+section.payment-settings #updateCustLink,
+section.payment-settings #customerDocsLink,
+section.payment-settings #beneficialOwnersLink,
+section.payment-settings #fundingSourcesLink,
+section.payment-settings #transferFundsLink,
+section.payment-settings #transactionsLink {
+    display: block;
+    margin-bottom: 1em;
+}
+
+section.funding-sources .full-pg-content-container.top-padding {
+    padding-top: 1em;
+}
+
+section.funding-sources .breadcrumb-wrapper {
+    float: none;
+    position: static;
+}
+
+section.funding-sources h1.h1-border {
+    margin-top: 0.5em;
+}
+
+section.funding-sources p {
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 1em;
+}
+
+section.funding-sources table.funding-sources-table {
+    margin-top: 0;
+}
+
+section.funding-sources table.funding-sources-table th.col-1,
+section.funding-sources table.funding-sources-table th.col-2,
+section.funding-sources table.funding-sources-table td.col-1,
+section.funding-sources table.funding-sources-table td.col-2 {
+    width: 37%;
+}
+
+section.funding-sources table.funding-sources-table th.col-3,
+section.funding-sources table.funding-sources-table td.col-3 {
+    width: 16%;
+}
+
+section.funding-sources table.funding-sources-table th.col-4 {
+    width: 10%;
+}
+
+section.funding-sources table.funding-sources-table td.col-1,
+section.funding-sources table.funding-sources-table td.col-2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+section.funding-sources table.funding-sources-table td.col-3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+section.funding-sources table.funding-sources-table td.col-4 {
+    width: 10%;
+    text-align: center;
+    padding: 5px 0;
+}
+
+section.funding-sources table.funding-sources-table .thead {
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    padding: 0;
+}
+
+section.funding-sources table.funding-sources-table .tbody tr:not(:last-child) {
+    border-bottom: 1px solid #dedede;
+}
+
+section.funding-sources table.funding-sources-table .thead tr > th {
+    padding: 10px 0;
+}
+
+section.funding-sources table.funding-sources-table .thead tr > th:first-child {
+    padding-left: 0;
+}
+
+section.funding-sources table.funding-sources-table .thead tr > th:not(:last-child) {
+    border-right: 1px solid #dedede;
+}
+
+section.funding-sources table.funding-sources-table .funding-add-btn,
+section.funding-sources table.funding-sources-table .funding-remove-btn {
+    visibility: hidden;
+    display: block;
+    width: 100%;
+    height: 100%;
+    left: -9999px;
+}
+
+section.funding-sources table.funding-sources-table .funding-add-btn::before {
+    content: "";
+    background: url("/images/piggy-bank-plus.png") center center / 38px 38px no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    visibility: visible;
+}
+
+section.funding-sources table.funding-sources-table .funding-remove-btn::before {
+    content: "";
+    background: url("/images/piggy-bank-minus.png") center center / 38px 38px no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    visibility: visible;
+}
+
+section.funding-sources span.no-sources {
+    display: block;
+    margin-top: 1em;
+}
+
+section.funding-sources #dwolla-balance-wrapper {
+    margin-top: 2em;
+    width: 40%;
+}
+
+section.funding-sources #dwolla-balance-wrapper h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+section.funding-sources table.dwolla-balance-table tr th,
+section.funding-sources table.dwolla-balance-table tr td {
+    width: 50%;
+    padding: 8px 0 8px 12px;
+    text-align: left;
+}
+
+section.funding-sources table.dwolla-balance-table tr th {
+    border-right: 1px solid #dedede;
+}
+
+section.funding-sources table.dwolla-balance-table {
+    border: 1px solid #dedede;
+}
+
+section.funding-sources table.dwolla-balance-table tr:not(:last-child) {
+    border-bottom: 1px solid #dedede;
+}
+
+section.transfer-funds table.transfer-funds-table {
+    margin-top: 0;
+}
+
+section.transfer-funds table.transfer-funds-table .thead {
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    padding: 0;
+}
+
+section.transfer-funds table.transfer-funds-table .tbody tr:not(:last-child) {
+    border-bottom: 1px solid #dedede;
+}
+
+section.transfer-funds table.transfer-funds-table .thead tr > th,
+section.transfer-funds table.transfer-funds-table .tbody tr > td {
+    padding: 8px 0;
+}
+
+section.transfer-funds table.transfer-funds-table .thead tr > th:first-child {
+    padding-left: 0;
+}
+
+section.transfer-funds table.transfer-funds-table .thead tr > th:not(:last-child) {
+    border-right: 1px solid #dedede;
+}
+
+section.transfer-funds table.transfer-funds-table th.col-1,
+section.transfer-funds table.transfer-funds-table td.col-1 {
+    width: 12%;
+    text-align: center;
+}
+
+section.transfer-funds table.transfer-funds-table th.col-2,
+section.transfer-funds table.transfer-funds-table th.col-3,
+section.transfer-funds table.transfer-funds-table td.col-2,
+section.transfer-funds table.transfer-funds-table td.col-3 {
+    width: 44%;
+    text-align: center;
+}
+
+section.transfer-funds table.transfer-funds-table input[type="radio"] {
+    width: auto;
+    float: none;
+    margin-bottom: 0;
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+section.transfer-funds table.transfer-info-table tr th {
+    width: 40%;
+    padding: 8px 0 8px 12px;
+    text-align: left;
+    border-right: 1px solid #dedede;
+}
+
+section.transfer-funds table.transfer-info-table tr td {
+    width: 60%;
+    padding: 8px 0 8px 12px;
+    text-align: left;
+}
+
+section.transfer-funds table.transfer-info-table {
+    border: 1px solid #dedede;
+    margin-bottom: 1em;
+}
+
+section.transfer-funds table.transfer-info-table tr:not(:last-child) {
+    border-bottom: 1px solid #dedede;
+}
+
+section.transfer-funds #ach-wizard-prev,
+section.transfer-funds #ach-wizard-save,
+section.create-customer #ach-wizard-prev,
+section.create-customer #ach-wizard-save {
+    display: none;
+}
+
+div[aria-describedby="failure-reason-dlg"] .ui-dialog-titlebar {
+    text-align: center;
+}
+
+section.transactions #failure-reason-dlg {
+    display: none;
+}
+
+div[aria-describedby="failure-reason-dlg"] .ui-dialog-title {
+    float: none;
+}
+
+div[aria-describedby="failure-reason-dlg"] .ui-dialog-titlebar-close:focus {
+    outline: 0;
+}
+
+div[aria-describedby="failure-reason-dlg"] .ui-dialog-content {
+    padding: 2.2em;
+}
+
+div[aria-describedby="failure-reason-dlg"] + .ui-widget-overlay {
+    background-image: none;
+    background-color: #000;
+}
+
+#failure-reason-dlg table.transfer-failure-table tr th {
+    width: 30%;
+    padding: 8px 0 8px 12px;
+    text-align: left;
+    border-right: 1px solid #dedede;
+}
+
+#failure-reason-dlg table.transfer-failure-table tr td {
+    width: 70%;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+#failure-reason-dlg table.transfer-failure-table {
+    border: 1px solid #dedede;
+}
+
+#failure-reason-dlg table.transfer-failure-table tr:not(:last-child) {
+    border-bottom: 1px solid #dedede;
+}
+
+section.funding-source .full-pg-content-container.top-padding {
+    padding-top: 0;
+}
+
+section.funding-source .community-tab-content-wrapper {
+    padding-bottom: 0;
+    margin-bottom: 1em;
+}
+
+section.funding-source .breadcrumb-wrapper {
+    float: none;
+    position: static;
+    margin: 2em 0 1em;
+}
+
+section.funding-source .breadcrumb-wrapper .breadcrumbs {
+    margin: 0;
+}
+
+section.funding-source .funding-src-status {
+    display: block;
+    margin-top: 0.5em;
+    text-transform: capitalize;
+}
+
+section.funding-source div.community-tab-content-wrapper > p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 0.5em;
+}
+
+section.funding-source .setting-form {
+    margin: 1em 0 1.5em;
+}
+
+section.funding-source .setting-form.medium {
+    width: 100%;
+}
+
+section.funding-source #funding-source-info > div,
+section.funding-source #amount-info > div {
+    width: 50%;
+}
+
+section.funding-source .rborder {
+    border-right: 1px solid #dedede;
+}
+
+section.funding-source .pr16 {
+    padding-right: 16px;
+}
+
+section.funding-source .pl16 {
+    padding-left: 16px;
+}
+
+section.funding-source .pr25 {
+    padding-right: 25px;
+}
+
+section.funding-source .pl25 {
+    padding-left: 25px;
+}
+
+section.funding-source #funding-source-info > div h2 {
+    text-align: center;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+section.funding-source #funding-source-info .label-wrapper:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+section.funding-source #funding-source-info .label-wrapper > span.label-name,
+section.funding-source #amount-info .label-wrapper > span.label-name {
+    float: none;
+    display: block;
+}
+
+section.funding-source #funding-source-info .label-wrapper > input,
+section.funding-source #amount-info .label-wrapper > input {
+    float: none;
+    margin-bottom: 0;
+    display: block;
+    line-height: 18px;
+}
+
+section.funding-source #funding-source-info .label-wrapper > select {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+section.funding-source #funding-source-info .label-wrapper > select:disabled {
+    color: #000;
+}
+
+section.funding-source #funding-source-info .label-wrapper > label.validation-error-msg,
+section.funding-source #amount-info .label-wrapper > label.validation-error-msg {
+    float: none;
+    display: block;
+    margin: 2px 0 0;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+section.funding-source #funding-source-info .validation-error::before,
+section.funding-source #amount-info .validation-error::before {
+    padding-right: 0.5em;
+}
+
+section.funding-source #funding-source-info select.input-validation-error {
+    border-color: #e40000 !important;
+    color: #e40000;
+}
+
+section.funding-source #funding-source-info .validation-error-msg[type="text"],
+section.funding-source #amount-info .validation-error-msg[type="text"],
+section.funding-source #funding-source-info select.validation-error-msg {
+    padding: 10px;
+    margin: 0;
+}
+
+section.funding-source #funding-source-info select.validation-error-msg {
+    float: none;
+}
+
+section.funding-source div.button-wrapper {
+    padding-top: 1em;
+    border-top: 1px solid #dedede;
+}
+
+section.funding-source div.button-wrapper div.label-wrapper {
+    width: 200px;
+}
+
+section.funding-source button.btn {
+    padding: 9px;
+    display: block;
+    margin: 0 !important;
+    width: 100%;
+    color: #fff;
+}
+
+section.funding-source div.button-wrapper div.label-wrapper:focus,
+section.funding-source button:focus {
+    outline: 0;
+}
+
+section.funding-source #initiate-micro-deposits,
+section.funding-source #verify-micro-deposits {
+    width: 55%;
+    margin: 0 auto;
+}
+
+section.funding-source fieldset {
+    padding: 0 1em 1em;
+    border: 2px solid #dedede;
+    border-radius: 10px;
+}
+
+section.funding-source fieldset legend {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    color: #09c0b3;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+}
+
+section.funding-source #initiate-micro-deposits .setting-form {
+    margin: 0;
+}
+
+section.funding-source #initiate-micro-deposits p,
+section.funding-source #verify-micro-deposits p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 0;
+    text-align: center;
+}
+
+section.funding-source #initiate-micro-deposits p {
+    margin-bottom: 1em;
+}
+
+section.funding-source #initiate-micro-deposits div.button-wrapper div.label-wrapper,
+section.funding-source #verify-micro-deposits div.button-wrapper div.label-wrapper {
+    margin: 0 auto;
+}
