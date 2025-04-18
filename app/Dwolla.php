@@ -1861,7 +1861,7 @@ class Dwolla
 
     private function getOAuthAccessToken() {
         if (session()->has('dwolla_access_token'))
-            $this->oauth_access_token = session('dwolla_access_token');
+            $this->oauth_access_token = json_decode(session('dwolla_access_token'));
         
         if ($this->isAccessTokenExpired()) {
             $retryCount = 3;
@@ -1884,7 +1884,7 @@ class Dwolla
                     if ($response->http_code == 200) {
                         $this->oauth_access_token = json_decode($response->result);
                         $this->oauth_access_token->created = time();
-                        session(['dwolla_access_token' => $this->oauth_access_token]);
+                        session(['dwolla_access_token' => json_encode($this->oauth_access_token)]);
 
                         break;
                     } else {
@@ -1913,7 +1913,7 @@ class Dwolla
             }
         }
 
-        return session('dwolla_access_token')->access_token;
+        return json_decode(session('dwolla_access_token'))->access_token;
     }
 
     private function isAccessTokenExpired() {
@@ -1934,7 +1934,7 @@ class Dwolla
         $invalid_access_token->token_type = 'Bearer';
         $invalid_access_token->expires_in = 0;
 
-        return $invalid_access_token;
+        return json_encode($invalid_access_token);
     }
 
     /**
